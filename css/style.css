@@ -290,9 +290,10 @@ li {
 .about {
   width: 70%;
   margin: 0 auto;
-  max-width: 1000px;
+  max-width: 900px;
 
 }
+
 
 .about__start {
   display: block;
@@ -755,5 +756,6 @@ li {
   box-sizing: border-box;  
 
 }
+
 
 
