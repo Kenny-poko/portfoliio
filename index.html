@@ -9,13 +9,13 @@
   <meta property="og:image" content="img/ogp.png">
   <meta name="description" content="Webデザイナー Kenny`s portfolio" />
   <title>Kenny Portfolio</title>
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
   <link href="css/reset.css" media="all" rel="stylesheet" type="text/css" />
   <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
   <link href="css/typed.css" media="all" rel="stylesheet" type="text/css" />
   <link href="css/about.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/swiper-bundle.min.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/swiper-bundle.css" media="all" rel="stylesheet" type="text/css" />
   <link rel="shortcut icon" href="img/favicon.ico" />
 
 </head>
@@ -51,7 +51,6 @@
             </class>
           </div>
       </section>
-
     </header>
     <!-- /.header -->
 
@@ -59,7 +58,7 @@
 
            <!-- .about-->
            
-           <section id="about">
+           <section class="about-section section" id="about">
             <div class="about box text-focus-in">
               <div class="section-heading">
                 <h2 class="heading-primary">ABOUT</h2>
@@ -114,6 +113,7 @@
                   <p class="img"><img src="img/works/making.png" alt=""></p>
                 </div>
               </div>
+              
               <!-- Add Pagination -->
               <div class="swiper-pagination"></div>
               <!-- Add Arrows -->
@@ -229,12 +229,13 @@
   </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script type='text/javascript' src="js/photoswipe/photoswipe-setup.js"></script>
   <script type='text/javascript' src="js/lazysizes/lazysizes.min.js"></script>
   <script type='text/javascript' src="js/script.js"></script>
-  <script src="js/typed.js"></script>
+  <script type='text/javascript' src="js/typed.js"></script>
+  <script type='text/javascript' src="js/swiper-bundle.js"></script>
+  <script type='text/javascript' src="js/swiper-bundle.min.js"></script>
+
 
   <script>
       var swiper = new Swiper('.swiper-container', {
