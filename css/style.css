@@ -98,7 +98,7 @@
     -ms-flex-direction: column;
     flex-direction: column;
     min-height: 100vh;
-    background: #E5DCD9;
+    background: #d4d3ca;
     color: #333;
     font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
     overflow-x: hidden;
@@ -464,7 +464,7 @@
     -ms-flex-line-pack: center;
     align-content: center;
     text-align: center;
-    width: 100%
+    width: 300%
   }
   
   @media print, screen and (max-width: 1024px) {
@@ -513,7 +513,7 @@
   
   .card_list_three .card {
     width: 32%;
-    padding: 35px
+    padding: 5px
   }
   
   @media print, screen and (max-width: 1024px) {
@@ -544,7 +544,7 @@
   
   .card_list_four .card {
     width: 23%;
-    padding: 22px
+    padding: 5px
   }
   
   @media print, screen and (max-width: 1024px) {
@@ -1314,7 +1314,7 @@
   .about_block {
     position: relative;
     padding: 60px 0px 40px;
-    background: #ece3e0;
+    background: #e5e4d9;
     background-size: 24% auto
   }
 
@@ -1322,21 +1322,21 @@
   
   @media print, screen and (max-width: 1399px) {
     .about_block {
-      background: #E5DCD9;
+      background: #e5e4d9;
       background-size: 24% auto
     }
   }
   
   @media print, screen and (max-width: 1024px) {
     .about_block {
-      background: #E5DCD9;
+      background: #e5e4d9;
       background-size: 34% auto
     }
   }
   
   @media print, screen and (max-width: 896px) {
     .about_block {
-      background:  #E5DCD9;
+      background:  #e5e4d9;
       background-size: 38% auto;
       padding: 8vw 0px 8vw
     }
@@ -1344,7 +1344,7 @@
   
   @media print, screen and (max-width: 480px) {
     .about_block {
-      background: #E5DCD9;
+      background: #e5e4d9;
       background-size: 76% auto
     }
   }
@@ -1592,6 +1592,9 @@
     }
   }
   
+  .about{
+    box-shadow:2rem 2rem 0 #F1907E;
+  }
 
   /* skill */
 
@@ -1772,7 +1775,7 @@
   .work_block {
     position: relative;
     padding: 60px 0px;
-    background: #ece3e0
+    background: #e5e4d9
   }
 
 
