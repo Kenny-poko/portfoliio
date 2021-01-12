@@ -165,29 +165,13 @@
   
 
   
-  body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, figure, figcaption {
+  body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, input, p  {
     margin: 0;
     padding: 0;
     font-weight: normal
   }
-  
-  table {
-    border-collapse: collapse;
-    border-spacing: 0
-  }
-  
-  fieldset, img {
-    border: 0
-  }
-  
-  address, caption, cite, code, dfn, th, var {
-    font-style: normal;
-    font-weight: normal
-  }
-  
-  caption, th {
-    text-align: left
-  }
+
+ 
   
   h1, h2, h3, h4, h5, h6 {
     font-size: 100%;
@@ -207,23 +191,8 @@
     vertical-align: text-top
   }
   
-  sub {
-    vertical-align: text-bottom
-  }
-  
-  input, textarea, select {
-    font-family: inherit;
-    font-size: inherit;
-    font-weight: inherit
-  }
-  
-  input, textarea, select {
-    *font-size: 100%
-  }
-  
-  legend {
-    color: #000
-  }
+
+
   
   * {
     -webkit-box-sizing: border-box;
@@ -251,9 +220,6 @@
   li {
     list-style: none
   }
-  
-
-  
   
   .txt_center {
     text-align: center
@@ -1718,7 +1684,8 @@
       margin: 0px 8px
     }
     .skill_block .inner_box .skill_list li p {
-      text-align: center
+      text-align: center;
+      font-size: 0.5rem
     }
   }
   
