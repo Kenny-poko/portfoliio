@@ -1,0 +1,419 @@
+
+  header {
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    padding-top: 34px
+  }
+
+
+  a:link {
+    color: #333;
+    text-decoration: none
+  }
+  
+  a:visited {
+    color: #333;
+    text-decoration: none
+  }
+  
+
+  
+  @media print, screen and (max-width: 1024px) {
+    header {
+      padding-top: 24px
+    }
+  }
+  
+  @media print, screen and (max-width: 896px) {
+    header {
+      padding-top: 12px;
+      background: rgba(255, 255, 255, 0.8);
+      -webkit-backdrop-filter: blur(6px);
+      backdrop-filter: blur(6px)
+    }
+  }
+  
+  @media print, screen and (max-width: 480px) {
+    header {
+      height: 56px
+    }
+  }header.header_bg {
+    padding-top: 0px;
+    background: rgba(255, 255, 255, 0.8);
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px)
+  }
+  
+  @media print, screen and (max-width: 1024px) {
+    header.header_bg {
+      padding-top: 24px
+    }
+  }
+  
+  @media print, screen and (max-width: 896px) {
+    header.header_bg {
+      padding-top: 12px
+    }
+  }
+  
+  @media print, screen and (min-width: 1025px) {
+    header.header_bg .inner_box .logo {
+      width: 190px;
+      height: 90px
+    }
+  }
+  
+  header.header_bg .inner_box nav .global_nav>li {
+    height: 80px
+  }
+  
+  header .inner_box {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0px 3%
+  }
+  
+  @media print, screen and (max-width: 1024px) {
+    header .inner_box {
+      padding: 0px 6%
+    }
+  }
+  
+  header .inner_box .logo {
+    width: 240px;
+    height: 60px;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out
+  }
+  
+  @media print, screen and (max-width: 1399px) {
+    header .inner_box .logo {
+      width: 200px
+    }
+  }
+  
+  @media print, screen and (max-width: 1024px) {
+    header .inner_box .logo {
+      width: 210px
+    }
+  }
+  
+  @media print, screen and (max-width: 896px) {
+    header .inner_box .logo {
+      width: 180px
+    }
+  }
+  
+  @media print, screen and (max-width: 480px) {
+    header .inner_box .logo {
+      width: 38vw;
+      height: 30px
+    }
+  }
+  
+  header .inner_box .logo a {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    text-align: center;
+    height: 100%
+  }
+  
+  header .inner_box .logo img {
+    width: 100%
+  }
+  
+  @media print, screen and (max-width: 1024px) {
+    header .inner_box nav {
+      position: fixed;
+      top: 120px;
+      right: 0px;
+      z-index: 1;
+      width: 40%;
+      height: 100vh;
+      padding: 0px 6%;
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+      -webkit-transition: 0.3s;
+      transition: 0.3s
+    }
+  }
+  
+  @media print, screen and (max-width: 896px) {
+    header .inner_box nav {
+      width: 70%
+    }
+  }
+  
+  header .inner_box nav .global_nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end
+  }
+  
+  @media print, screen and (max-width: 1024px) {
+    header .inner_box nav .global_nav {
+      display: none
+    }
+  }
+  
+  header .inner_box nav .global_nav>li {
+    margin-left: 46px;
+    height: 80px;
+    font-size: 1rem;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+  }
+  
+  @media print, screen and (max-width: 1399px) {
+    header .inner_box nav .global_nav>li {
+      margin-left: 30px;
+      font-size: 1.7rem
+    }
+  }
+  
+  @media print, screen and (max-width: 1024px) {
+    header .inner_box nav .global_nav>li {
+      width: 100%;
+      text-align: center;
+      display: block;
+      margin-left: 0px;
+      font-size: 1.6rem
+    }
+  }
+  
+  header .inner_box nav .global_nav>li a {
+    font-weight: bold;
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out
+  }
+  
+  @media (hover: hover) {
+    header .inner_box nav .global_nav>li a:hover {
+      color: #F1907E
+    }
+  }
+  
+  @media print, screen and (max-width: 1024px) {
+    header .inner_box nav .global_nav>li a {
+      color: #fff;
+      font-size: 1.6rem
+    }
+  }
+  
+  header .inner_box nav .global_nav>li:last-child a {
+    display: block;
+    width: 170px;
+    text-align: center;
+    padding: 4px;
+    border-radius: 25px;
+    background: #F1907E;
+    color: #fff
+  }
+  
+  @media print, screen and (max-width: 1399px) {
+    header .inner_box nav .global_nav>li:last-child a {
+      width: 150px
+    }
+  }
+  
+  @media print, screen and (max-width: 1024px) {
+    header .inner_box nav .global_nav>li:last-child a {
+      margin: 0px auto
+    }
+  }
+  
+  @media print, screen and (max-width: 896px) {
+    header .inner_box nav .global_nav>li:last-child a {
+      width: 90%;
+      padding: 8px 0px;
+      border-radius: 25px
+    }
+  }
+  
+  @media (hover: hover) {
+    header .inner_box nav .global_nav>li:last-child a:hover {
+      -webkit-filter: brightness(120%);
+      filter: brightness(120%)
+    }
+  }
+  
+  @-webkit-keyframes dropdown_box_amime {
+    0% {
+      top: 80px;
+      opacity: 0
+    }
+    100% {
+      top: 100px;
+      opacity: 1
+    }
+  }
+  
+  @keyframes dropdown_box_amime {
+    0% {
+    
+      opacity: 0
+    }
+    100% {
+      top: 100px;
+      opacity: 1
+    }
+  }
+  
+  header .inner_box nav.open {
+    -webkit-transform: translateX(0%) rotate(0deg);
+    transform: translateX(0%) rotate(0deg);
+    background: #3D92A4;
+  }
+  
+  header .inner_box nav.open .global_nav {
+    display: block
+  }
+  
+  header .inner_box nav.open .global_nav>li {
+    margin-left: 0px;
+    height: 60px;
+    font-size: 1.8rem
+  }
+  
+  .humberger_button {
+    position: fixed;
+    background: none;
+    color: #333;
+    width: 46px;
+    height: 46px;
+    border: none;
+    padding: 0px;
+    cursor: pointer;
+    top: 26px;
+    right: 3%;
+    z-index: 9999;
+    outline: none;
+    display: none
+  }
+  
+  @media print, screen and (max-width: 1024px) {
+    .humberger_button {
+      display: block
+    }
+  }
+  
+  @media print, screen and (max-width: 896px) {
+    .humberger_button {
+      top: 10px;
+      right: 4%
+    }
+  }
+  
+  @media print, screen and (max-width: 480px) {
+    .humberger_button {
+      top: 0px
+    }
+  }
+  
+  .humberger_button .humberger_bar {
+    display: block;
+    background: #333;
+    width: 30px;
+    height: 2px;
+    margin: 6px auto 0px;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    -webkit-transform-origin: 1px 1px;
+    transform-origin: 1px 1px;
+    border-radius: 2px
+  }
+  
+  .humberger_button.active {
+    position: fixed
+  }
+  
+  .humberger_button.active .humberger_bar1 {
+    -webkit-transform: translateY(15px) rotate(-45deg);
+    transform: translateY(15px) rotate(-45deg)
+  }
+  
+  .humberger_button.active .humberger_bar2 {
+    opacity: 0
+  }
+  
+  .humberger_button.active .humberger_bar3 {
+    -webkit-transform: translateY(-15px) rotate(45deg);
+    transform: translateY(-15px) rotate(45deg)
+  }
+  
+  .humberger_button.active .humberger_bar {
+    width: 22px;
+    background: #333
+  }
+  
+  .humberger_bg {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 100vh;
+    background: #3D92A4;
+    z-index: 90;
+    opacity: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    pointer-events: none
+  }
+  
+  .humberger_bg.open {
+    -webkit-transform: translateX(60%) rotate(0deg);
+    transform: translateX(60%) rotate(0deg);
+    opacity: 1;
+    pointer-events: auto
+  }
+  
+  @media print, screen and (max-width: 896px) {
+    .humberger_bg.open {
+      -webkit-transform: translateX(30%) rotate(0deg);
+      transform: translateX(30%) rotate(0deg)
+    }
+  }
+
+  
+
+
+
+
+
+  
