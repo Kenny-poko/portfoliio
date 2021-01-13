@@ -342,6 +342,8 @@ html, body {
 
 /* 中画面 */
 @media (max-width: 768px) {
+
+
   .menu-button {
     margin: 30px;
   }
@@ -380,6 +382,9 @@ html, body {
   line-height: 27px;
   }
 
+  .main-container .main-inner .main-text .br-sp {
+    display: none; 
+  }
 
 
 
