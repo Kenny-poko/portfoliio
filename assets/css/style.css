@@ -284,12 +284,14 @@ html, body {
   min-height: 100vh;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center;
+          align-items: flex-start;
 }
 
 .contact-container .contact-inner {
   width: 50vw;
   padding: 50px;
+  margin-top:6rem;
+  
 }
 
 
@@ -300,7 +302,7 @@ html, body {
 
   display: flex;
   justify-content: space-around;
-  margin-top: 80px;
+  margin-top: 30px;
 }
 
 
@@ -359,12 +361,19 @@ html, body {
     max-width: 100vw;
     height: 100vh;
     padding: 0 30px;
+   
   }
+
+  .main-container .main-inner .main-buttons  {
+    display: flex;
+    justify-content: space-around;
+  }
+
   .main-container .main-inner .main-buttons .main-button {
     padding: 10px 20px;
     text-align: center;
-    width: 60%;
-   
+    width: 200px;
+
   }
   .main-container .main-inner .main-buttons .main-button:hover {
     padding: 10px 20px;
