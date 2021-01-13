@@ -107,7 +107,7 @@ html, body {
   font-family:"Comic Sans MS", "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
   color: #3D92A4;
   font-weight: 500;
-  font-size: 3em;
+  font-size: 5vh;
   line-height: 50px;
 }
 
@@ -361,7 +361,8 @@ html, body {
   .main-container .main-inner .main-buttons .main-button {
     padding: 10px 20px;
     text-align: center;
-    width: 100%;
+    width: 60%;
+   
   }
   .main-container .main-inner .main-buttons .main-button:hover {
     padding: 10px 20px;
@@ -377,7 +378,9 @@ html, body {
   font-size: 14px;
   letter-spacing: 1px;
   line-height: 27px;
-}
+  }
+
+
 
 
   .brand-bar {
