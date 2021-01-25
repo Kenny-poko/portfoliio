@@ -1083,7 +1083,7 @@ header .logo img {
 
 /* background写真 */
 .mv_container{
-    background-image: url(../img/logo/Header.png);
+    background-image: url(../img/logo/Header.PNG);
     background-size: cover;
     width: 100%;
     background-repeat: no-repeat;
