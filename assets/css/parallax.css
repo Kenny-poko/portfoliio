@@ -1,0 +1,55 @@
+
+  .particle {
+    position: fixed;
+    top: -2000px;
+    width: -150px;
+  }
+  #particle1 {
+    background-image:url(../img/background/bg3.png); /* 画像のURLを指定 */
+    background-repeat: repeat; /* 画像の繰り返しを指定 */
+    width:100%; /* 横幅のサイズを指定 */
+    height:3072px;
+    background-size: 50%;
+  }
+  #particle2 {
+    background-image:url(../img/background/bg2.png); /* 画像のURLを指定 */
+    background-repeat: repeat; /* 画像の繰り返しを指定 */
+    width:100%; /* 横幅のサイズを指定 */
+    height:3072px;
+    background-size: 100%;
+  }
+
+  #particle3 {
+    background-image:url(../img/background/big.png); /* 画像のURLを指定 */
+    background-repeat: repeat; /* 画像の繰り返しを指定 */
+    width:100%; /* 横幅のサイズを指定 */
+    height:3072px;
+    background-size: 70%;
+  }
+
+
+
+@media screen and (max-width:780px) {
+  #particle1 {
+    background-image:url(../img/background/bg3.png); /* 画像のURLを指定 */
+    background-repeat: repeat; /* 画像の繰り返しを指定 */
+    width:100%; /* 横幅のサイズを指定 */
+    height:3072px;
+    background-size: 100%;
+  }
+  #particle2 {
+    background-image:url(../img/background/bg2.png); /* 画像のURLを指定 */
+    background-repeat: repeat; /* 画像の繰り返しを指定 */
+    width:100%; /* 横幅のサイズを指定 */
+    height:3072px;
+    background-size: 100%;
+  }
+
+  #particle3 {
+    background-image:url(../img/background/big.png); /* 画像のURLを指定 */
+    background-repeat: repeat; /* 画像の繰り返しを指定 */
+    width:100%; /* 横幅のサイズを指定 */
+    height:3072px;
+    background-size: 100%;
+  }
+}

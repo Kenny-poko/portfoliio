@@ -5,195 +5,413 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kenny Portfolio</title>
 
+    <link href="assets/favicon.ico" rel="icon">
 
-    <!-- Favicons -->
-    <link href="assets/images/favicon.ico" rel="icon">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/header.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./assets/css/common.css">
+    <link rel="stylesheet" href="./assets/css/parallax.css">
+    <link rel="stylesheet" href="./assets/css/copy.css">
+    <link rel="stylesheet" href="assets/css/mediasize.css">
 
-    <header class="header_bg">
-        <div class="inner_box">
-                    <h1 class="logo"><a href="#page_top"><img src="./assets/images/icon/Logo.svg" alt=""></a></h1>
-                    
-            
-            <button type="button" class="humberger_button">
-                <span class="humberger_bar humberger_bar1"></span>
-                <span class="humberger_bar humberger_bar2"></span>
-                <span class="humberger_bar humberger_bar3"></span>
-            </button>
-            
-                    <nav>
-                <ul class="global_nav">
-                    <li><a href="#page_top">Home</a></li>
-                    <li><a href="#portfolio">Works</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-                    
+</head>
+
+<body class="home blog active" style="overflow: visible;">
+
+    <div class="manage_modalLayer" style="opacity: 1; display: none; background-color: rgba(255, 255, 255, 0);">
+        <div class="modal_layer set_to_left">
+            <div class="animate_parts set_to_left">
+                <p class="logo" style="opacity: 1;"><img class="logo_image" src="./assets/img/logo/name.png" alt=""></p>
+            </div>
         </div>
+    </div>
+    
+    <div id="l_wrapper">
+        <div class="menu">
+            <div><span></span></div>
+            <div><span></span></div>
+            <div><span></span></div>
+        </div>
+
+        <header>
+            <h1 class="logo active" id="MainLogo"><a class="hoverlink" href="#MAINVISUAL"><img src="./assets/img/logo/Logo2.png" alt=""></a></h1>
+        </header>
+
+        <!-- nav bar -->
+      <div id="navigation">
+            <div class="background"></div>
+            <div class="fixWrapper">
+                <div class="contentsArea">
+                    <p class="en title-border">My Works</p>
+                    <ul class="productCategory">
+                        <li><a class="hoverlink" href="" target="_blank">
+                            <p class="image"><img src="./assets/img/portfolio/vixen.png"></p>
+                            <h3 class="name en">VIXEN</h3>
+                            <p class="name_annotation">架空化粧品サイト</p></a>
+                        </li>
+                        <li><a class="hoverlink" href="" target="_blank">
+                            <p class="image"><img src="./assets/img/portfolio/shibata.png"></p>
+                            <h3 class="name en">しばた</h3>
+                            <p class="name_annotation">和菓子LPサイト</p></a>
+                        </li>
+                        <li><a class="hoverlink" href="" target="_blank">
+                            <p class="image"><img src="./assets/img/maketool/maketool.png"></p>
+                            <h3 class="name en">作成サイト３</h3>
+                            <p class="name_annotation">作成サイト説明</p></a>
+                        </li>
+                        
+                        <li><a class="hoverlink" href="" target="_blank">
+                            <p class="image"><img src="./assets/img/maketool/maketool.png"></p>
+                            <h3 class="name en">作成サイト４</h3>
+                            <p class="name_annotation">作成サイト説明</p></a>
+                        </li>
+                    </ul>
+
+                    
+                    <!-- <div class="right_container">
+                        <ul class="pages">
+                            <li class="title-border en"><a class="hoverlink" href="#CONCEPT">ABOUT</a></li>
+                            <li class="title-border en"><a class="hoverlink" href="#SEVICE">SERVICE</a></li>
+                            <li class="title-border en"><a class="hoverlink" href="#YOUTUBE">SNS</a></li>
+                        </ul>
+                        <h3 class="annotation en">FOLLOW US</h3>
+                        
+                    </div> -->
+                </div>
+            </div>
+        </div> 
         
-    </header>
+        
+        <!-- navbar end -->
+
+        <!-- b w change -->
+
+        <!-- <div class="change_dark hoverlink">
+            <div class="circle"><img src="./assets/img/logo/circle.png"></div>
+            <div class="switch"><img src="./assets/img/logo/change.png"></div>
+        </div> -->
+        
+        <!-- b w change end-->
+
+
+        <!-- main -->
+
+        <main class="Index">    
+
+            <!-- particle -->
+            <div id="particle1" class="particle"></div>
+            <div id="particle2" class="particle"></div>
+            <div id="particle3" class="particle"></div>
+                  
+            <div class="mv_getsize"></div>
+                   
+            <!-- main pic -->
+
+            <section id="MAINVISUAL">
+                <p class="to_discover">
+         
+                    <img src="./assets/img/logo/gotosee.png" alt="gotosee"> 
+                </p>
+             
+                <div class="mv_container">
+                
+                    <section class="text_container">
+                        <h2 class="title en">
+                        KENNY
+                        <br>
+                        <br>PORTFOLIO
+                        <br><span class="subtitle">UI/UXデザイナー
+                            <br class="is_sp"> /システムエンジニア</span>
+                        </h2>
+                    </section>
+       
+        
+                </div>
+
+            </section>
+
+            <!-- concept -->
+            <section class="move show concept" id="CONCEPT">
+                <div class="border_container active">
+            
+                </div>
+                <div class="wrap">
+                    <div class="img-wrap"><img src="./assets/img/logo/aboutpic.jpg" alt=""></div>
+                    <div class="text-wrap">
+                        <p class="title en title-border">ABOUT</p>
+                        <p class="message">
+                            Ken Miyamoto
+                        </p>
+                        <p class="text">静岡県出身
+                            <br>4年制大学英語科目をメインに教育課程を履修
+                            <br>卒業後、スクールを経てエンジニアに
+                            <br class="is_pc">現在システムエンジニアをしながら<br class="is_sp">UI/UXデザインについて学んでおります。
+                            <br>東京都内を拠点に活動中。
+                            <br>
+                            <br>使用ソフト:Figma/XD/Photoshop/Illustrator/
+                            <br>言語：HTML&CSS/Java Script/JAVA/PHP
+                        </p>
+                    </div>
+                </div>
+            </section>
+            
+
+
+            <section class="move show" id="SERVICE">
+                <p class="title en title-border">SERVICE</p>
+                <div class="grad_bg"></div>
+                <div class="service-wrapper" >
+                    <div class="service_item" href="" target="_blank">
+                        <p class="image"><img class="needload" src="./assets/img/logo/System.png"></p>
+                        <div class="text_container">
+                            <h3 class="title en">SYSTEM dev</h3>
+                            <p class="name">システム開発</p>
+                        </div>
+                        <div class="explain">
+                            <p>
+                                既存のシステムの不具合や機能追加から新規システム作成まで、なんでもご相談ください。
+                            </p>
+                        </div>
+
+                        
+                    </div>
+                    <div class="service_item" href="" target="_blank">
+                        <p class="image"><img class="needload" src="./assets/img/logo/design.png"></p>          
+                        <div class="text_container">
+                            <h3 class="title en">WEB DESIGN</h3>
+                            <p class="name">ウェブ制作</p>
+                        </div>
+                        <div class="explain">
+                            <p>
+                                "レスポンスは迅速に"をモットーに、密なコミュニケーションからイメージを引き出せるウェブサイト制作をお手伝い。
+                                <br>デザインからコーディングまで承ります。
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="service_item" href="" target="_blank">
+                        <p class="image"><img class="needload" src="./assets/img/logo/Ad.png"></p>
+                        <div class="text_container">
+                            <h3 class="title en">ad CREATION</h3>
+                            <p class="name">広告作成</p>
+
+                        </div>
+                        <div class="explain">
+                            <p>
+                                動画編集やバナー広告、ロゴ作成等。ぼんやりとしたイメージから形作っていきます。
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </section>
+
+
+            <!-- maketools  -->
+            <section class="move show" id="PRODUCT">
+                <p class="title en title-border">MY works</p>
+                <div class="grad_bg"></div>
+                <div class="Category_items swiper-container swiper-container-initialized swiper-container-horizontal">
+                    <div class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px);">
+                        <div class="swiper-slide swiper-slide-active" style="width: 364px; margin-right: 30px;">
+                            <a class="Category_item" href="" target="_blank">
+                                <p class="image"><img class="needload" src="./assets/img/portfolio/vixen.png"></p>
+                                <div class="text_container">
+                                    <h3 class="title en">VIXEN</h3>
+                                    <p class="name">化粧品架空サイト</p>
+                                    <div class="btn"><div></div><span>詳細を開く</span> </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide swiper-slide-next" style="width: 364px; margin-right: 30px;">
+                            <a class="Category_item" href="" target="_blank">
+                                <p class="image"><img class="needload" src="./assets/img/portfolio/shibata.png"></p>          
+                                <div class="text_container">
+                                    <h3 class="title en">しばた</h3>
+                                    <p class="name">和菓子屋サイト</p>
+                                    <div class="btn"><div></div><span>詳細を開く</span> </div>
+                                </div>
+                            </a>
+                        </div>
+                              
+                        <div class="swiper-slide" style="width: 364px; margin-right: 30px;">
+                            <a class="Category_item" href="" target="_blank">
+                                <p class="image"><img class="needload" src="./assets/img/maketool/maketool.png"></p>
+                                <div class="text_container">
+                                    <h3 class="title en">作成サイト３</h3>
+                                    <p class="name">作成サイト説明</p>
+                                    <div class="btn"><div></div><span>詳細を開く</span> 
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                         
+                        
+                        <div class="swiper-slide" style="width: 364px; margin-right: 30px;">
+                            <a class="Category_item" href="" target="_blank">
+                                <p class="image"><img class="needload" src="./assets/img/maketool/maketool.png"></p>                                                
+                                <div class="text_container">
+                                    <h3 class="title en">作成サイト４</h3>
+                                    <p class="name">作成サイト説明</p>
+                                    <div class="btn"><div></div><span>詳細を開く</span> 
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true">
+                        
+                    </span>
+                </div>
+                
+                <div class="nav_items">
+                    
+                    
+                    <!-- ボタン矢印 -->
+                    <span class="swiper-button-prev navitem swiper-button-disabled" tabindex="0" role="button" aria-label="Previous slide" aria-disabled="true">
+                        
+                    </span>
+                    
+                    <span class="swiper-button-next navitem" tabindex="0" role="button" aria-label="Next slide" aria-disabled="false">
+                        
+                    </span>
+                    
+                </div>
+            </section>
+            
+            
+            <!-- sns -->
+            
+            <section class="move show" id="YOUTUBE">
+        
+
+                <p class="title en title-border">S N S</p>
+                <div class="item-wrap">
+                    <a class="img-item_container"　target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/kenny_poko_gallerry/">
+                        
+                        <div class="img-item">
+                            <img class="snspics" src="assets/img/sns/Insta.png">
+                            <div class="catch-wrap">
+                                <div class="main-catch en">MY INSTAGRAM</div>
+                                <div class="sub-catch">instagram account</div>
+                                <div class="btn">
+                                    <div>
+                                    </div>
+                                    <span>
+                                        FOLLOW
+                                    </span>   
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <a class="img-item_container" target="_blank" rel="noopener noreferrer"　href="https://twitter.com/kennypokopants">
+                        
+                        <div class="img-item">
+                            <img class="snspics" src="./assets/img/sns/twitter.png">
+                            <div class="catch-wrap">
+                                <div class="main-catch en">MY TWITTER</div>
+                                <div class="sub-catch">twitter account</div>
+                                <div class="btn">
+                                    <div>
+                                    </div>
+                                    <span>
+                                        FOLLOW
+                                    </span>   
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <a class="img-item_container"　target="_blank" rel="noopener noreferrer"　 href="https://github.com/Kenny-poko">
+                        
+                        <div class="img-item">
+                            <img class="snspics" src="./assets/img/sns/Git.png">
+                            <div class="catch-wrap">
+                                <div class="main-catch en">MY GITHUB</div>
+                                <div class="sub-catch">github page</div>
+                                <div class="btn">
+                                    <div>
+                                    </div>
+                                    <span>
+                                        FOLLOW
+                                    </span>   
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    
+                    
+                </div>
+            </section> 
+            
+            
+  
+
+            
+            <!-- footer news -->
+            <section class="footerNews">
+                <div class="close"><span></span></div>
+                <div class="container" >
+                    
+                    <div class="subject">
+                        <!-- <p class="annotation en">
+                            <span class="event">
+                                Kenny Portfolio         
+                            </span>
+                            <span class="day">
+                                Latest Update/2021.01.24
+                            </span>
+                        </p> -->
+
+                        <ul class="en">
+                            <li class="title title-border"> <a class="hoverlink" href="#CONCEPT">ABOUT</a></li>
+                            <li class="title title-border"> <a class="hoverlink" href="#SERVICE">SERVICE</a></li>
+                            <li class="title title-border"> <a class="hoverlink" href="#PRODUCT">MY WORKS</a></li>
+                            <li class="title title-border"> <a class="hoverlink" href="#YOUTUBE">SNS</a></li>
+                        </ul>
+                        
+                     
+                        
+                    </div>      
+                </div>
+            </section>  
+            
+        </main>
  
 
-
-
-    <div class="main-container">
-
-        <div id ="page_top" class="main-inner">
-            <h1 class="main-about">Kenny's Portfolio </h1>
-            <p class="main-text">
-                当サイトへの訪問ありがとうございます。
-                <br>1995年生まれ　静岡県出身　
-                <br>2019年スクールを卒業し都内でシステムエンジニアをしながら
-                <br class="br-sp">デザインに力を入れて学習に励んでおります。
-                <br>当サイトではポートフォリオとして作った作品等あげております。
-                <br>基本スキルはHTML, CSS, JavaScript, Java, PHP.
-                <br class="br-sp">提供サービスとしまして広告作成や動画編集等
-                <br>伴いPhotoshop、premier pro等のソフトも使用可能です。
-                <br>
-                <br>今後の展望といたしまして、SEO対策・コンバージョン改善に
-                <br class="br-sp">繋げていけるデザイナーになりたいと考えております。
-
-
-            </p>
-            <div class="main-buttons">
-                <a href="#portfolio" class="main-button">My Works</a>
-                <a href="#contact" class="main-button main-button-white">Contact</a>
-            </div>
-        </div>
-        
-    </div>
-
-    
-    <div class="portfolio-container" id="portfolio">
-        
-        
-        
-        
-        <a href="https://kenny-poko.github.io/-Japanese-sweets-Shibata/" target="_blank">
-            <div class="portfolio-item" id = "portfolio">
-                <img src="./assets/images/portfolio/japanesesweets.png" class="portfolio-item-image" alt="茶の湯菓子処しばた">
-                <div class="portfolio-item-info">
-                    <h1 class="postfolio-item-title">茶の湯菓子処しばた</h1>
-                    <div class="portfolio-item-link">
-                        <span class="portfolio-item-link-text">社内学習模写</span>
-                        <img src="./assets/images/icon/arrow-right.svg" class="portfolio-item-link-arrow">
-                    </div>
-                </div>
-            </div>
-        </a>
-        <a href="https://kennypokoblog.com/" target="_blank">
-            <div class="portfolio-item">
-                <img src="./assets/images/portfolio/blog.png" class="portfolio-item-image" alt="Nudgie">
-                <div class="portfolio-item-info">
-                    <h1 class="postfolio-item-title">Kenny blog</h1>
-                    <div class="portfolio-item-link">
-                        <span class="portfolio-item-link-text">WPブログ</span>
-                        <img src="./assets/images/icon/arrow-right.svg" class="portfolio-item-link-arrow">
-                    </div>
-                </div>
-            </div>
-        </a>
-        <a href="https://www.instagram.com/kenny_poko_gallerry/" target="_blank">
-            <div class="portfolio-item">
-                <img src="./assets/images/portfolio/instagram.png" class="portfolio-item-image" alt="イラストギャラリー">
-                <div class="portfolio-item-info">
-                    <h1 class="postfolio-item-title">イラストギャラリー @ Instagram</h1>
-                    <div class="portfolio-item-link">
-                        <span class="portfolio-item-link-text">イラストギャラリー</span>
-                        <img src="./assets/images/icon/arrow-right.svg" class="portfolio-item-link-arrow">
-                    </div>
-                </div>
-            </div>
-        </a>
-        <a href="　" target="_blank">
-            <div class="portfolio-item">
-                <img src="./assets/images/portfolio/making.jpg" class="portfolio-item-image" alt="Blisk">
-                <div class="portfolio-item-info">
-                    <h1 class="postfolio-item-title">作成中　動画共有サイト</h1>
-                    <div class="portfolio-item-link">
-                        <span class="portfolio-item-link-text">リンク先なし</span>
-                        <img src="./assets/images/icon/arrow-right.svg" class="portfolio-item-link-arrow">
-                    </div>
-                </div>
-            </div>
-        </a>
-    </div>
-
-    <div class="contact-container" id="contact">
-        <div class="contact-inner">
-            <h1 class="main-title">Contact</h1>
-            <p class="main-text">
-                ご覧いただきありがとうございました。
-                <br>質問や、気になる点ございましたらお気軽にお問合ください。
-                <br>また、Twitterに日々のデザイン学習について情報発信していますので、フォローしていただくと嬉しいです。
-                <br>
-                <br>
-                各種お問い合わせは <a href="https://twitter.com/kennypokopants" class="main-text-link" target="_blank">TwitterのDM</a>にて承っております。</p>
-        </div>
-
-
-        <div class="contact-inner">
-            <h1 class="main-title">SNS</h1>
-
-
-            <ul class="sns_list fadein_js txt_fadein">
-                <li>
-                    
-                    <div class="sns_section">
-                        <a href="https://twitter.com/kennypokopants">
-                            <img src="./assets/images/sns/twitter.png" alt="">
-                            <p>Twitter</p>
-                        </a>
-                        
-                    </div>
+        <footer>
             
-                    
-                </li>
-                <li>					
-                    <div class="sns_section">
-                        <a href="https://www.instagram.com/kenny_poko_gallerry/">
-                            <img src="./assets/images/sns/Instagram.png" alt="">
-                            <p>instagram</p>
-                        </a>
-                        
-                    </div>
-                    
-                </li>
-                <li>					
-                    <div class="sns_section">
-                        <a href="https://github.com/Kenny-poko">
-                            <img src="./assets/images/sns/Github.png" alt="">
-                            <p>github</p>
-                        </a>
-                        
-                    </div>
-                </li>
-                
-            </ul>
-        </section>
+            <!-- やじるし -->
+            <p class="to_top"><img src="./assets/img/logo/TOTOP.png" alt="TO TOP"></p> 
+
+            <div class="wrap">
+                <div class="title title-border">CONTACT</div>
+                <p>お問い合わせは<a class = "link_twitter" href="">TwitterのDM</a>にて承ってます。</p>
+            
+
         
+        
+            </div>
+            
+ 
+
+        </footer>    
     </div>
-    
-    
-    
-    
-</div>
-</div>
-<div class="footer-container">
-    <div class="footer">
-        <p class="footer-text">©  KennyPortfolio</p>
-    </div>
-</div>
+
 
 <script src="./assets/js/jquery.min.js"></script>
 <script src="./assets/js/jquery.js"></script>
 
 <script src="./assets/js/style.js"></script>
-
+    <script src="./assets/js/jquery-3.3.1.min.js"></script>
+    <script src="./assets/js/bundle.js"></script>
+    <script src ="./assets/js/parallax.js"></script>
+   
 </body>
+    
 </html>
-
- 
+    

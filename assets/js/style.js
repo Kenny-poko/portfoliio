@@ -12,15 +12,6 @@ $(function(){
 });
 
 
-// ふわっと表示（タイトルなど）
-$(function(){
-	$(".fadein_js").on('inview', function(event, isInView) {
-		console.log(isInView);
-		if(isInView){
-			$(this).stop().addClass('txt_fadein');
-		}
-	});
-});
 
 //グローバルナビ SP用スワイプメニュー
 $(function () {
