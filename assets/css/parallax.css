@@ -9,14 +9,16 @@
     background-repeat: repeat; /* 画像の繰り返しを指定 */
     width:100%; /* 横幅のサイズを指定 */
     height:3072px;
-    background-size: 50%;
+    background-size: 60%;
+    transform: rotate(30deg);
   }
   #particle2 {
     background-image:url(../img/background/bg2.png); /* 画像のURLを指定 */
     background-repeat: repeat; /* 画像の繰り返しを指定 */
     width:100%; /* 横幅のサイズを指定 */
     height:3072px;
-    background-size: 100%;
+    background-size: 80%;
+    transform: rotate(-30deg);
   }
 
   #particle3 {
@@ -25,6 +27,7 @@
     width:100%; /* 横幅のサイズを指定 */
     height:3072px;
     background-size: 70%;
+    transform: rotate(-80deg);
   }
 
 

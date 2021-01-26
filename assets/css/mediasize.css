@@ -531,8 +531,10 @@
     .Index #CONCEPT .wrap .text-wrap .text {
       line-height: 6vw;
       margin-bottom: 9%;
-      font-size: 2.5vw
+      font-size: 3vw
     }
+
+ 
     .Index #CONCEPT .wrap .text-wrap .btn {
       position: relative;
       display: -webkit-box;
