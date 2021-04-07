@@ -755,12 +755,12 @@
       font-size: 2.7vw;
       bottom: -44%
     }
-    .Index #YOUTUBE {
+    .Index #SNS {
       margin-bottom: 15%
     }
 
 
-    .Index #YOUTUBE .title {
+    .Index #SNS .title {
         font-size: 2.7vw;
         margin: 0 7% 0 10%
 
@@ -775,46 +775,46 @@
   /* service */
 
   @media screen and (max-width:780px) {
-    #YOUTUBE {
+    #SNS {
       min-width: 0;
       margin-bottom: 7%
     }
   
-    #YOUTUBE .border {
+    #SNS .border {
       position: absolute;
       z-index: 0
     }
-    #YOUTUBE .border.first {
+    #SNS .border.first {
       width: 241%;
       left: 0;
       margin-left: -60%;
       margin-top: 219%
     }
-    #YOUTUBE .border.secound {
+    #SNS .border.secound {
       width: 358%;
       right: -79%;
       margin-top: 263%
     }
-    #YOUTUBE .border img {
+    #SNS .border img {
       width: 100%
     }
-    #YOUTUBE .img-wrap_container {
+    #SNS .img-wrap_container {
       width: 86%;
       padding-top: 81%;
       min-width: 0
     }
-    #YOUTUBE .img-wrap {
+    #SNS .img-wrap {
       background-position: center
     }
-    #YOUTUBE .img-wrap .catch-wrap .catch {
+    #SNS .img-wrap .catch-wrap .catch {
       font-size: 4vw;
       margin-bottom: 4%;
       white-space: nowrap
     }
-    #YOUTUBE .img-wrap .catch-wrap .sub-catch {
+    #SNS .img-wrap .catch-wrap .sub-catch {
       font-size: 3vw;
     }
-    #YOUTUBE .img-wrap .catch-wrap .btn, #YOUTUBE .item-wrap .img-item .catch-wrap .btn {
+    #SNS .img-wrap .catch-wrap .btn, #SNS .item-wrap .img-item .catch-wrap .btn {
       position: relative;
       color: #ffffff;
       cursor: pointer;
@@ -823,7 +823,7 @@
       vertical-align: middle;
       font-size: 2vw;
     }
-    #YOUTUBE .img-wrap .catch-wrap .btn {
+    #SNS .img-wrap .catch-wrap .btn {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -836,26 +836,26 @@
       width: 30vw;
       height: 8vw
     }
-    #YOUTUBE .item-wrap {
+    #SNS .item-wrap {
       width: 86%;
       margin: 8% auto 0;
       min-width: 0;
       display: block
     }
-    #YOUTUBE .item-wrap .img-item_container {
+    #SNS .item-wrap .img-item_container {
       width: 100%;
       padding-top: 94%;
       min-width: 0;
       margin-bottom: 9%
     }
-    #YOUTUBE .item-wrap .img-item {
+    #SNS .item-wrap .img-item {
       width: 100%;
       height: 100%;
       background-position: center;
       top: 0;
       left: 0
     }
-    #YOUTUBE .item-wrap .img-item .catch-wrap .btn {
+    #SNS .item-wrap .img-item .catch-wrap .btn {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -868,12 +868,12 @@
       width: 30vw;
       height: 8vw
     }
-    #YOUTUBE .item-wrap .img-item .catch-wrap .main-catch {
+    #SNS .item-wrap .img-item .catch-wrap .main-catch {
       font-size: 4vw;
       white-space: nowrap;
       letter-spacing: .32em
     }
-    #YOUTUBE .item-wrap .img-item .catch-wrap .sub-catch {
+    #SNS .item-wrap .img-item .catch-wrap .sub-catch {
       font-size: 3vw
     }
   }

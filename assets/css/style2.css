@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
-
-
 /* 
 コンセプトカラー
 ネイビー
@@ -1114,16 +1111,7 @@ header .logo img {
     transition-delay: 0s
 }
 
-.Index #MAINVISUAL .mv_container #container_mv .mv_image:before {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    background-image: url(assets/image/index/home_img_03_daken.jpg);
-    background-size: 100% auto
-}
+
 
 
 .Index #MAINVISUAL .mv_container #container_mv .container {
@@ -1144,12 +1132,6 @@ header .logo img {
 
 
 
-
-.Index #MAINVISUAL .mv_container #container_mv div:nth-of-type(1) .mv_image {
-    background-size: cover;
-    background-position: center;
-    background-image: url(../img/logo/IMG_7075.JPG)
-}
 
 
 
@@ -2144,44 +2126,44 @@ header .logo img {
 
 /* SNS */
 
-.Index #YOUTUBE {
+.Index #SNS {
     margin-bottom: 20%;
   }
 
-  #YOUTUBE .border img, #PAGEVISUAL .onlineShop img {
+  #SNS .border img, #PAGEVISUAL .onlineShop img {
     -webkit-transition-property: opacity, -webkit-transform
   }
   
-  #YOUTUBE .border img, #YOUTUBE .img-wrap_container {
+  #SNS .border img, #SNS .img-wrap_container {
     -webkit-transition-timing-function: cubic-bezier(.2, 1, .2, 1);
     -webkit-transition-delay: 0s
   }
   
 
 
-#YOUTUBE {
+#SNS {
     position: relative;
     margin-bottom: 3%
   }
 
-  #YOUTUBE .title{
+  #SNS .title{
     font-size: 17px;
     font-weight: 500;
     margin: 0 0 3% 45%
 
   }
   
-  #YOUTUBE .border_container:first-of-type {
+  #SNS .border_container:first-of-type {
     margin-top: -4%
   }
   
-  #YOUTUBE .border {
+  #SNS .border {
     position: relative;
     position: absolute;
     z-index: 0
   }
   
-  #YOUTUBE .border:before {
+  #SNS .border:before {
     content: "";
     display: block;
     position: absolute;
@@ -2191,22 +2173,22 @@ header .logo img {
     background-size: 100% auto
   }
   
-  #YOUTUBE .border.first {
+  #SNS .border.first {
     width: 137%;
     left: -20%;
   }
   
-  #YOUTUBE .border.secound {
+  #SNS .border.secound {
     width: 133%;
     right: -9%;
     margin-top: 13%
   }
   
-  #YOUTUBE .border.secound:before {
+  #SNS .border.secound:before {
     background-size: 100% auto
   }
   
-  #YOUTUBE .border img {
+  #SNS .border img {
     width: 100%;
     transition-property: opacity, -webkit-transform;
     transition-property: opacity, transform;
@@ -2219,7 +2201,7 @@ header .logo img {
   }
   
   
-  #YOUTUBE .item-wrap {
+  #SNS .item-wrap {
     width: 80%;
     margin: 0 auto 0;
     display: -webkit-box;
@@ -2231,7 +2213,7 @@ header .logo img {
     min-width: 1080px
   }
   
-  #YOUTUBE .item-wrap .img-item_container {
+  #SNS .item-wrap .img-item_container {
     width: 31.5%;
     padding-top: 31%;
     position: relative;
@@ -2252,39 +2234,39 @@ header .logo img {
     transition-delay: 0s
   }
   
-  #YOUTUBE .item-wrap .img-item, #YOUTUBE .item-wrap .img-item .catch-wrap {
+  #SNS .item-wrap .img-item, #SNS .item-wrap .img-item .catch-wrap {
     -webkit-transition-timing-function: cubic-bezier(.2, 1, .2, 1);
     -webkit-transition-delay: 0s;
     position: absolute;
     width: 100%
   }
   
-  #YOUTUBE .item-wrap .img-item_container:hover {
+  #SNS .item-wrap .img-item_container:hover {
     -webkit-transform: scale3d(.95, .95, .95);
     transform: scale3d(.95, .95, .95)
   }
   
-  #YOUTUBE .item-wrap .img-item_container:hover .img-item {
+  #SNS .item-wrap .img-item_container:hover .img-item {
     -webkit-transform: scale3d(1.2, 1.2, 1.2);
     transform: scale3d(1.2, 1.2, 1.2)
   }
   
-  #YOUTUBE .item-wrap .img-item_container:hover .img-item .btn {
+  #SNS .item-wrap .img-item_container:hover .img-item .btn {
     background-color: #fff
   }
   
-  #YOUTUBE .item-wrap .img-item_container:hover .img-item .btn div:after {
+  #SNS .item-wrap .img-item_container:hover .img-item .btn div:after {
     left: 84%;
     background-color: #000
   }
   
-  #YOUTUBE .item-wrap .img-item_container:hover .catch-wrap {
+  #SNS .item-wrap .img-item_container:hover .catch-wrap {
     -webkit-transform: translate(-50%, -35%) scale3d(.88, .88, .88);
     transform: translate(-50%, -35%) scale3d(.88, .88, .88)
   }
   
   
-  #YOUTUBE .item-wrap .img-item {
+  #SNS .item-wrap .img-item {
     height: 100%;
     top: 0;
     left: 0;
@@ -2298,7 +2280,7 @@ header .logo img {
     transition-delay: 0s
   }
   
-  #YOUTUBE .item-wrap .img-item .catch-wrap {
+  #SNS .item-wrap .img-item .catch-wrap {
     -webkit-transition-property: -webkit-transform;
     transition-property: -webkit-transform;
     transition-property: transform;
@@ -2315,14 +2297,14 @@ header .logo img {
     text-align: center
   }
   
-  #YOUTUBE .item-wrap .img-item .catch-wrap .btn, #YOUTUBE .item-wrap .img-item .catch-wrap .btn span {
+  #SNS .item-wrap .img-item .catch-wrap .btn, #SNS .item-wrap .img-item .catch-wrap .btn span {
     -webkit-transition-timing-function: cubic-bezier(.2, 1, .2, 1);
     -webkit-transition-duration: 1s;
     -webkit-transition-delay: 0s;
     position: relative
   }
   
-  #YOUTUBE .item-wrap .img-item .catch-wrap .main-catch {
+  #SNS .item-wrap .img-item .catch-wrap .main-catch {
     font-weight: 900;
     font-size: 23px;
     letter-spacing: .17em;
@@ -2330,14 +2312,14 @@ header .logo img {
     text-align: center
   }
   
-  #YOUTUBE .item-wrap .img-item .catch-wrap .sub-catch {
+  #SNS .item-wrap .img-item .catch-wrap .sub-catch {
     font-size: 12px;
     font-weight: 500;
     margin-bottom: 30px;
     text-align: center
   }
   
-  #YOUTUBE .item-wrap .img-item .catch-wrap .btn {
+  #SNS .item-wrap .img-item .catch-wrap .btn {
     margin: 0 auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2363,7 +2345,7 @@ header .logo img {
     font-size: 8px
   }
   
-  #YOUTUBE .item-wrap .img-item .catch-wrap .btn span {
+  #SNS .item-wrap .img-item .catch-wrap .btn span {
     -webkit-transition-property: opacity, color;
     transition-property: opacity, color;
     transition-timing-function: cubic-bezier(.2, 1, .2, 1);
@@ -2373,13 +2355,13 @@ header .logo img {
     color: #3D92A4
   }
   
-  #YOUTUBE .item-wrap .img-item .catch-wrap .btn div:after, #PAGEVISUAL .onlineShop img {
+  #SNS .item-wrap .img-item .catch-wrap .btn div:after, #PAGEVISUAL .onlineShop img {
     -webkit-transition-timing-function: cubic-bezier(.2, 1, .2, 1);
     -webkit-transition-duration: 1s;
     -webkit-transition-delay: 0s
   }
   
-  #YOUTUBE .item-wrap .img-item .catch-wrap .btn div {
+  #SNS .item-wrap .img-item .catch-wrap .btn div {
     position: absolute;
     width: 120%;
     height: 1px;
@@ -2388,7 +2370,7 @@ header .logo img {
     left: -10%
   }
   
-  #YOUTUBE .item-wrap .img-item .catch-wrap .btn div:after {
+  #SNS .item-wrap .img-item .catch-wrap .btn div:after {
     -webkit-transition-property: left, background-color;
     transition-property: left, background-color;
     transition-timing-function: cubic-bezier(.2, 1, .2, 1);
@@ -2404,16 +2386,16 @@ header .logo img {
     background-color: #C1C1C1
   }
   
-  #YOUTUBE .item-wrap .img-item .catch-wrap .btn:hover {
+  #SNS .item-wrap .img-item .catch-wrap .btn:hover {
     background-color: #3D92A4;
   }
   
-  #YOUTUBE .item-wrap .img-item .catch-wrap .btn:hover div:after {
+  #SNS .item-wrap .img-item .catch-wrap .btn:hover div:after {
     left: 84%;
     background-color: #3D92A4
   }
   
-  #YOUTUBE .item-wrap .img-item .catch-wrap .btn:hover span {
+  #SNS .item-wrap .img-item .catch-wrap .btn:hover span {
     color: rgb(255, 255, 255)
   }
   
